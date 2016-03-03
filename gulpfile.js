@@ -45,7 +45,7 @@
     });
   });
 
-  gulp.task('html', function() {
+  gulp.task('html', function () {
     return gulp.src('app/**/*.html').pipe(server_connect.reload());
   });
 
